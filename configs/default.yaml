@@ -1,0 +1,50 @@
+# SWPD-WF default configuration.
+#
+# Re-running the pipeline against a different snapshot year requires
+# only that this file is updated. The single command below regenerates
+# every reported number end-to-end.
+
+snapshot:
+  # Pinned disclosure years (override per release cycle)
+  google_wue_release: 2024
+  epa_egrid_release: 2024
+  wri_aqueduct_release: 4.0
+  iea_stock_release: 2024
+
+regions:
+  - us-central1
+  - us-east1
+  - us-west1
+  - europe-west1
+  - asia-south1
+
+cooling_classes:
+  - water-cooled
+  - air
+
+accelerator_class: H100
+trace_name: public-llm-serving-2024
+
+# Algorithm 1 parameters
+alpha:
+  T: 1.0       # training phase weight
+  I: 1.0       # inference phase weight (hold equal in headline;
+               # override for time-discount sensitivity)
+
+beta:
+  D: 0.40      # direct cooling flow share
+  G: 0.55      # grid indirect flow share
+  E: 0.05      # embodied flow share (attributed to training)
+
+pue: 1.0       # power-usage effectiveness; cancel in WUE inversion
+
+# Algorithm 2 parameters
+monte_carlo:
+  n_samples: 10000
+  seed: 42
+  inputs_perturbed: [s_r, wue]   # the two highest-variance inputs
+
+# Worked example
+e_compute_per_phase:
+  T: 1.0       # kWh of training
+  I: 1.0       # kWh of inference

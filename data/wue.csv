@@ -1,0 +1,11 @@
+region,cooling_class,wue_l_per_kwh,wue_uncertainty
+us-central1,air,1.1,0.1
+us-central1,water-cooled,1.8,0.15
+us-east1,air,1.2,0.12
+us-east1,water-cooled,1.9,0.18
+us-west1,air,0.9,0.1
+us-west1,water-cooled,1.5,0.15
+europe-west1,air,1.3,0.13
+europe-west1,water-cooled,2.0,0.2
+asia-south1,air,1.4,0.14
+asia-south1,water-cooled,2.1,0.21

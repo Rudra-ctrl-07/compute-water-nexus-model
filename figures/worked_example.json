@@ -1,0 +1,33 @@
+{
+  "region": "us-central1",
+  "cooling_class": "water-cooled",
+  "accelerator_class": "H100",
+  "trace_name": "public-llm-serving-2024",
+  "inputs": {
+    "WUE_l_per_kwh": 1.8,
+    "WIf_l_per_kwh": 1.5,
+    "S_r": 0.42,
+    "embodied_l_per_year": 3500.0,
+    "eta_T": 0.15,
+    "eta_I": 0.85
+  },
+  "intermediate": {
+    "V_D_total_l": 3.6,
+    "V_G_total_l": 3.0,
+    "V_E_total_l": 3500.0
+  },
+  "attribution_l": {
+    "W_T_D": 0.3024,
+    "W_T_G": 0.34650000000000003,
+    "W_E": 73.5,
+    "W_I_D": 0.3024,
+    "W_I_G": 0.34650000000000003,
+    "W_I_E": 0.0
+  },
+  "scalar_l": 74.79780000000001,
+  "monte_carlo_pct": {
+    "q05": 60.42355840075615,
+    "q50": 74.87707190166964,
+    "q95": 89.91834048608317
+  }
+}

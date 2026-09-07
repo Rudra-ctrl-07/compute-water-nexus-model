@@ -1,0 +1,6 @@
+region,sub_region,wif_l_per_kwh,ef_kg_per_kwh
+us-central1,ERCT,1.5,0.4
+us-east1,SRVC,1.8,0.38
+us-west1,WECC,0.8,0.3
+europe-west1,EU,0.9,0.25
+asia-south1,IN,2.2,0.7

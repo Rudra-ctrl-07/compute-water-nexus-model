@@ -1,0 +1,4 @@
+trace_name,eta_t,eta_i
+mlperf-training-v4,0.45,0.55
+mlperf-inference-v4,0.2,0.8
+public-llm-serving-2024,0.15,0.85

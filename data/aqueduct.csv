@@ -1,0 +1,6 @@
+region,cell_index,s_r,s_r_uncertainty
+us-central1,h08v04,0.42,0.05
+us-east1,h09v05,0.55,0.06
+us-west1,h08v05,0.78,0.07
+europe-west1,h18v04,0.18,0.03
+asia-south1,h22v07,0.85,0.08
