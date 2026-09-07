@@ -1,5 +1,5 @@
-numpy==1.26.4
-scipy==1.13.1
-pandas==2.2.2
-matplotlib==3.9.2
-pytest==7.4.4
+numpy>=2.1
+scipy>=1.14
+pandas>=2.2
+matplotlib>=3.9
+pytest>=7.4
