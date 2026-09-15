@@ -1,5 +1,7 @@
 # SWPD-WF: Stress-Weighted, Phase-Disaggregated Water-Footprint Model
 
+[![reproduce](https://github.com/Rudra-ctrl-07/compute-water-nexus-model/actions/workflows/reproduce.yml/badge.svg)](https://github.com/Rudra-ctrl-07/compute-water-nexus-model/actions/workflows/reproduce.yml)
+
 Reproducible artifact for the IEEE conference paper
 "A Stress-Weighted, Phase-Disaggregated Water-Footprint Model for
 Hyperscale AI Compute".
